@@ -1,0 +1,9 @@
+key,sequence-number,instantiation-moment,message,hyperlink,key:help-request
+follow-up-01,HRQ-001:0001,2020/01/01 10:00,The helpRequest was accepted,https://www.link1.com,help-request-01
+follow-up-02,HRQ-002:0002,2022/08/21 10:00,The helpRequest was denied,https://www.link2.com,help-request-02
+follow-up-03,HRQ-003:0003,2021/01/01 10:00,The helpRequest was accepted,https://www.link3.com,help-request-02
+follow-up-04,HRQ-004:0004,2022/08/22 10:00,The helpRequest was denied,https://www.link4.com,help-request-03
+follow-up-05,HRQ-005:0005,2021/01/01 10:00,The helpRequest was accepted,https://www.link5.com,help-request-04
+follow-up-06,HRQ-006:0006,2022/08/23 10:00,The helpRequest was denied,https://www.link6.com,help-request-05
+follow-up-07,HRQ-007:0007,2021/01/01 10:00,The helpRequest was accepted,https://www.link7.com,help-request-06
+follow-up-08,HRQ-008:0008,2022/08/19 10:00,The helpRequest was denied,https://www.link8.com,help-request-07

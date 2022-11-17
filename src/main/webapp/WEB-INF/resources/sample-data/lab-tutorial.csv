@@ -1,0 +1,10 @@
+key,title,ticker,abstract-text,cost,hyperlink
+lab-tutorial-01,LabTutorial1,LTU-001,LabTutorial1,USD 3.0,https://www.lab-tutorial.com
+lab-tutorial-02,LabTutorial2,LTU-002,LabTutorial2,GBP 6.4,https://www.lab-tutorial.com
+lab-tutorial-03,LabTutorial3,LTU-003,LabTutorial3,EUR 9.1,https://www.lab-tutorial.com
+lab-tutorial-04,LabTutorial4,LTU-004,LabTutorial4,GBP 3.7,https://www.lab-tutorial.com
+lab-tutorial-05,LabTutorial5,LTU-005,LabTutorial5,USD 2.9,https://www.lab-tutorial.com
+lab-tutorial-06,LabTutorial6,LTU-006,LabTutorial6,EUR 4.2,https://www.lab-tutorial.com
+lab-tutorial-07,LabTutorial7,LTU-007,LabTutorial7,USD 3.2,https://www.lab-tutorial.com
+lab-tutorial-08,LabTutorial8,LTU-008,LabTutorial8,GBP 5.1,https://www.lab-tutorial.com
+lab-tutorial-09,LabTutorial9,LTU-009,LabTutorial9,GBP 3.1,https://www.lab-tutorial.com

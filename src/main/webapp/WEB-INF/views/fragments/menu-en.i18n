@@ -1,0 +1,72 @@
+# menu-en.i18n
+#
+# Copyright (C) 2012-2022 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+# master.menu #################################################################
+
+master.menu.home = Home
+master.menu.sign-up = Sign up
+master.menu.sign-in = Sign in
+master.menu.sign-out = Sign out
+
+# master.menu.anonymous #######################################################
+
+master.menu.anonymous = Anonymous
+master.menu.anonymous.favourite-link = Favourite link
+master.menu.anonymous.luis-favourite-link = 29538040Z: Cerrato Sanchez, Luis
+master.menu.anonymous.ernesto-favourite-link = 29560995S: Gutierrez Contreras, Ernesto
+
+# master.menu.administrator ###################################################
+
+master.menu.administrator = Administrator
+master.menu.administrator.view-dashboard = Dashboard
+master.menu.administrator.view-configuration = Configuration
+master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.populate-initial = Populate DB (initial)
+master.menu.administrator.populate-sample = Populate DB (samples)
+master.menu.administrator.shut-down = Shut down
+
+
+# master.menu.user-account ####################################################
+
+master.menu.user-account = Account
+master.menu.user-account.general-data = General data
+
+
+# master.menu.any ####################################################
+
+master.menu.any = Any
+master.menu.any.user-accounts = User accounts
+master.menu.any.list-blink = Blinks
+master.menu.any.list-theory-tutorial = Theory tutorials
+master.menu.any.list-lab-tutorial = Lab tutorials
+master.menu.any.list-course = Courses
+
+# master.menu.teacher ####################################################
+
+master.menu.teacher = Teacher
+master.menu.teacher.list-course = My courses
+master.menu.teacher.list-theory-tutorial = My theory tutorials
+master.menu.teacher.list-lab-tutorial = My lab tutorials
+master.menu.teacher.list-course = My courses
+master.menu.teacher.list-help-request = My help requests
+master.menu.teacher.list-follow-up = My follow ups
+
+# master.menu.learner ####################################################
+
+master.menu.learner = Learner
+master.menu.learner.view-dashboard = Dashboard
+master.menu.learner.list-help-request = Help requests
+master.menu.learner.list-follow-up = Follow ups
+
+# master.menu.authenticated ####################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.list-post = Posts
+master.menu.authenticated.view-configuration = Configuration

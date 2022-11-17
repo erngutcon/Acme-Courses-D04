@@ -1,0 +1,9 @@
+key,title,ticker,abstract-text,cost,hyperlink
+theory-tutorial-01,Theory tutorial 1,TUT-001,Theory tutorial 1,USD 1.1,https://www.theory-tutorial.com
+theory-tutorial-02,Theory tutorial 2,TUT-002,Theory tutorial 2,GBP 1.0,https://www.theory-tutorial.com
+theory-tutorial-03,Theory tutorial 3,TUT-003,Theory tutorial 3,EUR 0.8,https://www.theory-tutorial.com
+theory-tutorial-04,Theory tutorial 4,TUT-004,Theory tutorial 4,GBP 1.7,https://www.theory-tutorial.com
+theory-tutorial-05,Theory tutorial 5,TUT-005,Theory tutorial 5,USD 1.3,https://www.theory-tutorial.com
+theory-tutorial-06,Theory tutorial 6,TUT-006,Theory tutorial 6,EUR 1.0,https://www.theory-tutorial.com
+theory-tutorial-07,Theory tutorial 7,TUT-007,Theory tutorial 7,USD 1.0,https://www.theory-tutorial.com
+theory-tutorial-08,Theory tutorial 8,TUT-008,Theory tutorial 8,USD 1.6,https://www.theory-tutorial.com

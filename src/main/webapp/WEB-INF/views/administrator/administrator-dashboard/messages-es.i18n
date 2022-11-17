@@ -1,0 +1,44 @@
+# i18n-es.i18n
+#
+# Copyright (C) 2012-2022 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.dashboard.form.title.general-indicators = General indicators
+ 
+administrator.dashboard.form.label.total-number-of-theory-tutorials = Numero total de tutoriales de teoria
+administrator.dashboard.form.label.total-number-of-lab-tutorials = Numero total de tutoriales de laboratorio
+administrator.dashboard.form.label.average-cost-of-theory-tutorials= Coste medio de tutoriales de teoria
+administrator.dashboard.form.label.deviation-cost-of-theory-tutorials= Coste de desviacion de tutoriales de teoria
+administrator.dashboard.form.label.minimum-cost-of-theory-tutorials= Coste minimo de tutoriales de teoria
+administrator.dashboard.form.label.maximum-cost-of-theory-tutorials= Coste maximo de tutoriales de teoria
+administrator.dashboard.form.label.average-cost-of-lab-tutorials= Coste medio de tutoriales de laboratorio
+administrator.dashboard.form.label.deviation-cost-of-lab-tutorials= Coste de desviacion de tutoriales de laboratorio
+administrator.dashboard.form.label.minimum-cost-of-lab-tutorials= Coste minimo de tutoriales de laboratorio
+administrator.dashboard.form.label.maximum-cost-of-lab-tutorials= Coste maximo de tutoriales de laboratorio
+
+administrator.dashboard.form.label.total-number-of-proposed-help-requests= Numero total de solicitudes de ayuda propuestas
+administrator.dashboard.form.label.total-number-of-accepted-help-requests = Numero total de solicitudes de ayuda aceptadas
+administrator.dashboard.form.label.total-number-of-denied-help-requests = Numero total de solicitudes de ayuda rechazadas
+
+administrator.dashboard.form.label.average-budget-of-proposed-help-requests = Coste medio de solicitudes de ayuda propuestas
+administrator.dashboard.form.label.deviation-budget-of-proposed-help-requests = Coste de desviacion de solicitudes de ayuda propuestas
+administrator.dashboard.form.label.minimum-budget-of-proposed-help-requests =Coste minimo de solicitudes de ayuda propuestas
+administrator.dashboard.form.label.maximum-budget-of-proposed-help-requests= Coste maximo de solicitudes de ayuda propuestas
+
+administrator.dashboard.form.label.average-budget-of-accepted-help-requests =Coste medio de solicitudes de ayuda aceptadas
+administrator.dashboard.form.label.deviation-budget-of-accepted-help-requests = Coste de desviacion de solicitudes de ayuda aceptadas
+administrator.dashboard.form.label.minimum-budget-of-accepted-help-requests=Coste minimo de solicitudes de ayuda aceptadas
+administrator.dashboard.form.label.maximum-budget-of-accepted-help-requests=Coste maximo de solicitudes de ayuda aceptadas
+
+administrator.dashboard.form.label.average-budget-of-denied-help-requests= Coste medio de solicitudes de ayuda aceptadas
+administrator.dashboard.form.label.deviation-budget-of-denied-help-requests=Coste de desviacion de solicitudes de ayuda rechazadas
+administrator.dashboard.form.label.minimum-budget-of-denied-help-requests=Coste minimo de solicitudes de ayuda rechazadas
+administrator.dashboard.form.label.maximum-budget-of-denied-help-requests =Coste maximo de solicitudes de ayuda rechazadas
+
+administrator.dashboard.form.title.total-number-of-tutorials = Numero total de tutoriales por tipo
+administrator.dashboard.form.title.total-number-of-help-requests = Numero total de solicitudes de ayuda por estado
