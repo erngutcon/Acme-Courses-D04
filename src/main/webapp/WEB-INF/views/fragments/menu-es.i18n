@@ -37,6 +37,8 @@ master.menu.administrator.shut-down = Parar el sistema
 
 master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
+master.menu.user-account.become-teacher = Conviertete en profesor
+master.menu.user-account.become-learner = Conviertete en aprendiz
 
 
 # master.menu.any #######################################################
