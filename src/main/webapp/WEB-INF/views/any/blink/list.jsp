@@ -24,3 +24,5 @@
 		width="20%" />
 </acme:list>
 
+<acme:button code="any.blink.list.button.create" action="/any/blink/create"/>
+

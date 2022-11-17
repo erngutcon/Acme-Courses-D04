@@ -13,8 +13,12 @@ any.blink.form.label.caption = Titulo:
 any.blink.form.label.author-alias = Autor:
 any.blink.form.label.message = Mensaje:
 any.blink.form.label.email = Correo electronico:
+any.blink.form.button.create = Crear noticia
+
+any.blink.form.label.confirmation = Las noticias no se pueden actualizar ni borrar, confirma que la noticia es correcta
 
 any.blink.list.label.instantiation-moment = Momento de creacion
 any.blink.list.label.author-alias = Alias del autor
 any.blink.list.label.caption = Titulo
+any.blink.list.button.create = Crear noticia
 
