@@ -20,4 +20,3 @@
 	<acme:list-column code="teacher.follow-up.list.label.instantiation-moment" path="instantiationMoment" width="50%"/>
 </acme:list>
 
-<acme:button code="teacher.follow-up.list.button.create" action="/teacher/follow-up/create"/>

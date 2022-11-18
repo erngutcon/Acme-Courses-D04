@@ -20,3 +20,4 @@ teacher.follow-up.form.label.hyperlink= Hyperlink
 
 teacher.follow-up.form.button.create = Create
 teacher.follow-up.form.label.confirmation = Follow-ups cannot be updated or deleted, confirm that the follow-up is correct
+teacher.follow-up.confirmation.error = You must confirm that the follow-up is correct before creating it

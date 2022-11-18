@@ -20,6 +20,8 @@
 	<acme:input-textbox code="teacher.theory-tutorial.form.label.title" path="title"/>
 	<acme:input-textbox code="teacher.theory-tutorial.form.label.abstractText" path="abstractText"/>
 	<acme:input-textbox code="teacher.theory-tutorial.form.label.cost" path="cost"/>
-	<acme:input-url code="teacher.theory-tutorial.form.label.hyperlink" path="hyperlink"/>			
+	<acme:input-url code="teacher.theory-tutorial.form.label.hyperlink" path="hyperlink"/>	
+	
+	<acme:submit code="teacher.theory-tutorial.form.button.delete" action="/teacher/theory-tutorial/delete"/>		
 </acme:form>
 

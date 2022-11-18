@@ -37,6 +37,7 @@ public class TeacherFollowUpCreateService implements AbstractCreateService<Teach
 	
 	@Autowired
 	protected TeacherHelpRequestRepository helpRequestRepository;
+	
 
 	// AbstractCreateService<Teacher, FollowUp> interface -------------------------
 
@@ -94,6 +95,12 @@ public class TeacherFollowUpCreateService implements AbstractCreateService<Teach
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		
+		boolean confirmation;
+
+		confirmation = request.getModel().getBoolean("confirmation");
+		errors.state(request, confirmation, "confirmation", "teacher.follow-up.confirmation.error");
+
 	}
 
 	@Override
