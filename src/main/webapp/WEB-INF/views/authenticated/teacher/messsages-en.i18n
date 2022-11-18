@@ -13,6 +13,6 @@ authenticated.teacher.teacher.form.title.create = Become a teacher
 
 authenticated.teacher.teacher.form.label.school = School
 authenticated.teacher.teacher.form.label.statement = Statement
-authenticated.teacher.teacher.form.label.hyperlink = hyperlink
+authenticated.teacher.teacher.form.label.hyperlink = Hyperlink
 
 authenticated.teacher.teacher.form.button.create = Create 

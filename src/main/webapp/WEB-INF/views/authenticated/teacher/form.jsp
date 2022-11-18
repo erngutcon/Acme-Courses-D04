@@ -18,7 +18,7 @@
 <acme:form>
 	<acme:input-textbox code="authenticated.teacher.teacher.form.label.school" path="school"/>
 	<acme:input-textbox code="authenticated.teacher.teacher.form.label.statement" path="statement"/>
-	<acme:input-textbox code="authenticated.teacher.teacher.form.label.hyperlink" path="hyperlink"/>
+	<acme:input-url code="authenticated.teacher.teacher.form.label.hyperlink" path="hyperlink"/>
 		
 	<acme:submit test="${command == 'create'}" code="authenticated.teacher.teacher.form.button.create" action="/authenticated/teacher/create"/>
 </acme:form>

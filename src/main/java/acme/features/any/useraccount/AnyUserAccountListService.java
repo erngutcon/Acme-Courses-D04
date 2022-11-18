@@ -25,6 +25,7 @@ import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
 import acme.framework.entities.UserAccount;
 import acme.framework.roles.Any;
+import acme.framework.roles.UserRole;
 import acme.framework.services.AbstractListService;
 
 @Service
@@ -72,6 +73,7 @@ public class AnyUserAccountListService implements AbstractListService<Any, UserA
 		request.unbind(entity, model, "identity.name", "identity.surname");
 
 		final String roleList= entity.getAuthorityString();
+		final UserRole rolee = entity.getRole("Authenticated");
 		model.setAttribute("roleList", roleList);
 
 	}

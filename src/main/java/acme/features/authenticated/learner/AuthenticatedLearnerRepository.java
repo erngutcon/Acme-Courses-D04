@@ -13,6 +13,7 @@
 package acme.features.authenticated.learner;
 
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import acme.framework.entities.UserAccount;
@@ -23,9 +24,9 @@ import acme.roles.Learner;
 public interface AuthenticatedLearnerRepository extends AbstractRepository {
 
 	@Query("select ua from UserAccount ua where ua.id = :id")
-	UserAccount findOneUserAccountById(int id);
+	UserAccount findOneUserAccountById(@Param("id") int id);
 
 	@Query("select c from Learner c where c.userAccount.id = :id")
-	Learner findOneLearnerByUserAccountId(int id);
+	Learner findOneLearnerByUserAccountId(@Param("id") int id);
 
 }

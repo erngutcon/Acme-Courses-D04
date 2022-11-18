@@ -13,6 +13,6 @@ authenticated.learner.learner.form.title.create = Become a learner
 
 authenticated.learner.learner.form.label.school = School
 authenticated.learner.learner.form.label.statement = Statement
-authenticated.learner.learner.form.label.hyperlink = hyperlink
+authenticated.learner.learner.form.label.hyperlink = Hyperlink
 
 authenticated.learner.learner.form.button.create = Create 
