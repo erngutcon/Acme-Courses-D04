@@ -53,7 +53,7 @@
 			<acme:menu-suboption code="master.menu.any.list-course" action="/any/course/list"/>
 		</acme:menu-option>
 		
-		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
+		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
 			<acme:menu-suboption code="master.menu.authenticated.view-configuration" action="/authenticated/configuration/show"/>
 			<acme:menu-suboption code="master.menu.authenticated.list-post" action="/authenticated/post/list"/>
 		</acme:menu-option>

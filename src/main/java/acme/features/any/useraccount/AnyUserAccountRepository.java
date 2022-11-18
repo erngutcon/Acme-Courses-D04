@@ -29,7 +29,7 @@ public interface AnyUserAccountRepository extends AbstractRepository {
 	UserAccount findOneUserAccountById(@Param("id") int id);
 	
 	
-	@Query("select ua from UserAccount ua join ua.roles r where ua.enabled = true and (type(r) = Teacher or type(r) = Learner) and Administrator not in (select type(r) from UserAccount ua2 join ua2.roles r where ua2.id = ua.id)")
+	@Query("select ua from UserAccount ua join ua.roles r where ua.enabled = true and (type(r) = Teacher or type(r) = Learner or type(r) = Authenticated) and Administrator not in (select type(r) from UserAccount ua2 join ua2.roles r where ua2.id = ua.id)")
 	Collection<UserAccount> findAllUserAccounts();
 
 	
