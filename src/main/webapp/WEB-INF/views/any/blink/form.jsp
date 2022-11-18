@@ -19,7 +19,7 @@
 	<acme:input-textbox code="any.blink.form.label.caption" path="caption"/>
 	<acme:input-textbox code="any.blink.form.label.author-alias" path="authorAlias"/>
 	<acme:input-textarea code="any.blink.form.label.message" path="message"/>
-	<acme:input-textbox code="any.blink.form.label.email" path="email"/>
+	<acme:input-email code="any.blink.form.label.email" path="email"/>
 	<jstl:if test="${showmoment}">
 		<acme:input-moment code="any.blink.form.label.instantiation-moment" path="instantiationMoment"/>
 	</jstl:if>
