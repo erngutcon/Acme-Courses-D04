@@ -10,8 +10,13 @@
 
 learner.follow-up.list.label.sequenceNumber = Sequence Number
 learner.follow-up.list.label.instantiationMoment = Instantiation Moment
+learner.follow-up.list.button.create = Create follow-up
 
 learner.follow-up.form.label.sequenceNumber = Sequence Number
 learner.follow-up.form.label.instantiationMoment = Instantiation Moment
 learner.follow-up.form.label.message  = Message
 learner.follow-up.form.label.hyperlink = Hyperlink
+
+learner.follow-up.form.button.create = Create
+learner.follow-up.form.label.confirmation = Follow-ups cannot be updated or deleted, confirm that the follow-up is correct
+learner.follow-up.confirmation.error = You must confirm that the follow-up is correct before creating it
