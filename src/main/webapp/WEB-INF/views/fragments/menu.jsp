@@ -42,6 +42,10 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.view-configuration" action="/administrator/configuration/show"/>
 			<acme:menu-suboption code="master.menu.administrator.view-dashboard" action="/administrator/administrator-dashboard/show"/>
+			<acme:menu-suboption code="master.menu.authenticated.list-post" 
+				action="/authenticated/post/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.create-post" action="/administrator/post/create"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.any" access="hasRole('Any')">

@@ -26,9 +26,4 @@
 		width="20%" />
 </acme:list>
 
-<sec:authorize access="hasRole('Administrator')">
-	<acme:button code="administrator.post.list.button.create"
-			action="/administrator/post/create"/>
-</sec:authorize>
-
 
