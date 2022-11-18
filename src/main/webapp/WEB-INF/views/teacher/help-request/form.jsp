@@ -38,4 +38,8 @@
 		<acme:submit code="teacher.help-request.form.button.update" action="/teacher/help-request/update"/>
 	</jstl:if>
 	<acme:button code="teacher.help-request.form.label.show-learner" action="/any/user-account/show?id=${learnerId}"/>
+	
+	<jstl:if test="${status=='ACCEPTED'}">
+		<acme:button code="teacher.help-request.follow-up.form.button.create" action="/teacher/follow-up/create?helpRequestId=${id}" />
+	</jstl:if>
 </acme:form>

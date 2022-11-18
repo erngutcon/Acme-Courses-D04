@@ -4,14 +4,20 @@
 #
 # In keeping with the traditional purpose of furthering education and research, it is
 # the policy of the copyright owner to permit non-commercial use and redistribution of
-# this software. It has been tested carefully, but it is not guaranteed for any particular
-# purposes.  The copyright owner does not offer any warranties or representations, nor do
-# they accept any liabilities with respect to them.
+# this software. It has been tested carefully, but it is not guaranteed for teacher particular
+# purposes.  The copyright owner does not offer teacher warranties or representations, nor do
+# they accept teacher liabilities with respect to them.
 
 teacher.follow-up.list.label.sequence-number = Sequence Number
 teacher.follow-up.list.label.instantiation-moment = Instantiation Moment
+teacher.follow-up.list.button.create = Create follow-up
+
 
 teacher.follow-up.form.label.sequence-number = Sequence Number
 teacher.follow-up.form.label.instantiation-moment = Instantiation Moment
 teacher.follow-up.form.label.message= Message
 teacher.follow-up.form.label.hyperlink= Hyperlink
+
+teacher.follow-up.form.button.create = Create
+teacher.follow-up.form.label.confirmation = Follow-ups cannot be updated or deleted, confirm that the follow-up is correct
+teacher.follow-up.confirmation.error = You must confirm that the follow-up is correct before creating it

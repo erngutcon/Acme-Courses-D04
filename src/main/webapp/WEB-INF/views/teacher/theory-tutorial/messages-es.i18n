@@ -9,10 +9,10 @@
 # they accept teacher liabilities with respect to them.
 
 teacher.theory-tutorial.form.label.ticker = Ticker:
-teacher.theory-tutorial.form.label.title = Título:
+teacher.theory-tutorial.form.label.title = Titulo:
 teacher.theory-tutorial.form.label.abstractText = Texto:
 teacher.theory-tutorial.form.label.cost = Coste:
 teacher.theory-tutorial.form.label.hyperlink = Hyperlink: 
 
-teacher.theory-tutorial.list.label.title = Título
+teacher.theory-tutorial.list.label.title = Titulo
 teacher.theory-tutorial.list.label.abstractText = Texto
