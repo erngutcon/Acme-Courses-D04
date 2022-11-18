@@ -63,16 +63,16 @@
 		</acme:input-select>
 	</jstl:if>
 	<jstl:choose>
-		<jstl:when test="${acme:anyOf(command,'show, update, delete, publish') && published == false}">
+		<jstl:when test="${acme:anyOf(command,'show, update, delete, publish') && publish == false}">
 			<acme:hidden-data path="initDate"/>
 			<acme:hidden-data path="finishDate"/>
-			<acme:button code="any.user-account.form.label.teacher" action="/any/user-account/show?id=${teacherId}"/>"/>
+			<acme:button code="any.user-account.form.label.teacher" action="/any/user-account/show?id=${teacherId}"/>
 			<acme:submit code="learner.help-request.form.button.delete" action="/learner/help-request/delete"/>
 			<acme:submit code="learner.help-request.form.button.update" action="/learner/help-request/update"/>
 			<acme:submit code="learner.help-request.form.button.publish" action="/learner/help-request/publish"/>	
 		</jstl:when>
-		<jstl:when test="${acme:anyOf(command,'show, update, delete, publish') && published == true}">
-			<acme:button code="any.user-account.form.label.teacher" action="/any/user-account/show?id=${teacherId}"/>"/>
+		<jstl:when test="${acme:anyOf(command,'show, update, delete, publish') && publish == true}">
+			<acme:button code="any.user-account.form.label.teacher" action="/any/user-account/show?id=${teacherId}"/>
 		</jstl:when>
 	</jstl:choose>
 	<jstl:if test="${command == 'create'}">
@@ -84,6 +84,8 @@
 		<acme:hidden-data path="status"/>
 		<acme:submit code="learner.help-request.form.button.create" action="/learner/help-request/create"/>
 	</jstl:if>
+
+	<acme:button code="any.user-account.form.label.teacher" action="/any/user-account/show?id=${teacherId}"/>
 	
 	
 </acme:form>

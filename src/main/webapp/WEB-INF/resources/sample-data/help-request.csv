@@ -5,9 +5,9 @@ help-request-03,ACCEPTED,HRQ-003,Illegal,GBP 13.0,2022/09/01 10:00,2022/10/04 11
 help-request-04,DENIED,HRQ-004,Legal,USD 9.0,2022/09/01 10:00,2022/10/03 11:00,2022/12/01 12:00,https://www.link4.com,learner-03,teacher-01,true
 help-request-05,PROPOSED,HRQ-005,Legal,GBP 15.0,2022/09/01 10:00,2022/10/03 11:00,2022/12/01 12:00,https://www.link5.com,learner-04,teacher-03,false
 help-request-06,DENIED,HRQ-006,Legal,GBP 23.0,2022/09/01 10:00,2022/10/02 11:00,2022/12/01 12:00,https://www.link6.com,learner-04,teacher-04,true
-help-request-07,PROPOSED,HRQ-007,Illegal,GBP 8.0,2022/09/01 10:00,2022/10/03 11:00,2022/12/01 12:00,https://www.link7.com,learner-01,teacher-03,true
+help-request-07,PROPOSED,HRQ-007,Illegal,GBP 8.0,2022/09/01 10:00,2022/10/03 11:00,2022/12/01 12:00,https://www.link7.com,learner-01,teacher-03,false
 help-request-08,ACCEPTED,HRQ-008,Legal,EUR 10.0,2022/09/01 10:00,2022/10/04 11:00,2022/12/01 12:00,https://www.link8.com,learner-02,teacher-01,true
-help-request-09,PROPOSED,HRQ-009,Illegal,EUR 13.0,2022/09/01 10:00,2022/10/03 11:00,2022/12/01 12:00,https://www.link9.com,learner-04,teacher-02,true
+help-request-09,PROPOSED,HRQ-009,Illegal,EUR 13.0,2022/09/01 10:00,2022/10/03 11:00,2022/12/01 12:00,https://www.link9.com,learner-04,teacher-02,false
 help-request-10,ACCEPTED,HRQ-010,Legal,EUR 16.0,2022/08/20 10:00,2022/08/20 11:00,2022/09/20 11:00,https://www.link10.com,learner-01,teacher-04,false
 help-request-11,DENIED,HRQ-011,Legal,GBP 12.0,2022/09/01 10:00,2022/10/02 11:00,2022/12/01 12:00,https://www.link11.com,learner-02,teacher-03,true
 help-request-12,DENIED,HRQ-012,Legal,USD 10.0,2022/09/01 10:00,2022/10/02 11:00,2022/12/01 12:00,https://www.link12.com,learner-01,teacher-01,false
