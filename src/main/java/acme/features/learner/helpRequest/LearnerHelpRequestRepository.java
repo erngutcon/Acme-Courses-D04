@@ -19,6 +19,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+import acme.entities.FollowUp;
 import acme.entities.HelpRequest;
 import acme.framework.entities.UserAccount;
 import acme.framework.repositories.AbstractRepository;
@@ -35,6 +36,9 @@ public interface LearnerHelpRequestRepository extends AbstractRepository {
 
 	@Query("select ua from UserAccount ua where ua.id = :id")
 	UserAccount findOneUserAccountById(@Param("id") int id);
+	
+	@Query("select h from HelpRequest h")
+	Collection<HelpRequest> findAllHelpRequests();
 
 	@Query("select hp from HelpRequest hp where hp.id = :id")
 	HelpRequest findOneHelpRequestById(@Param("id") int id);
@@ -44,5 +48,7 @@ public interface LearnerHelpRequestRepository extends AbstractRepository {
 	
 	@Query("select hp from HelpRequest hp where hp.learner.id = :id")
 	Collection<HelpRequest> findManyHelpRequestsByLearner(@Param("id") int id);
-	
+
+	@Query("select followUp from FollowUp followUp where followUp.helpRequest.id = :id")
+	Collection<FollowUp> findManyFollowUpsByHelpRequestId(@Param("id") int id);
 }

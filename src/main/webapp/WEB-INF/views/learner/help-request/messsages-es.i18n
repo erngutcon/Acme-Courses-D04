@@ -21,4 +21,15 @@ learner.help-request.form.label.statement = Declaracion
 learner.help-request.form.label.hyperlink = Hyperlink
 learner.help-request.form.label.status = Estado
 
+learner.help-request.form.button.delete = Borrar
+learner.help-request.form.button.update = Actualizar
+learner.help-request.form.button.publish = Publicar
+learner.help-request.form.button.create = Crear
+
+learner.help-request.form.error.too-close-init-date = Fecha invalida
+learner.help-request.form.error.one-month = Fecha invalida
+learner.help-request.form.error.non-accepted-currency =  Divisa no aceptada
+learner.help-request.form.error.negative-budget= La cantidad no puede ser negativa
+
 any.user-account.form.label.teacher = Profesor
+learner.help-request.form.label.selectTeacher = Link profesor
