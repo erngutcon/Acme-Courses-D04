@@ -10,8 +10,12 @@
 
 teacher.follow-up.list.label.sequence-number = Número de secuencia
 teacher.follow-up.list.label.instantiation-moment = Fecha creación
+teacher.follow-up.list.button.create = Crear follow-up
 
 teacher.follow-up.form.label.sequence-number = Número de secuencia
 teacher.follow-up.form.label.instantiation-moment = Fecha creación
 teacher.follow-up.form.label.message= Mensaje
 teacher.follow-up.form.label.hyperlink= Hyperlink
+
+teacher.follow-up.form.button.create = Crear
+teacher.follow-up.form.label.confirmation = Los seguimientos no se pueden actualizar ni borrar, confirme que el seguimiento es correcto
