@@ -46,7 +46,7 @@ public interface TeacherHelpRequestRepository extends AbstractRepository {
 	HelpRequest findOneHelpRequestById(@Param("id")  int id);
 
 	@Query("select teacher from Teacher teacher where teacher.userAccount.username =:username")
-	Teacher findByName(String username);
+	Teacher findByName(@Param("username") String username);
 	
 	@Query("select h.teacher.id from HelpRequest h where h.id = :id")
 	Integer findTeacherByHelpRequestId(@Param("id")  int id);

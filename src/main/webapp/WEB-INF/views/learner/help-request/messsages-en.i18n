@@ -21,13 +21,15 @@ learner.help-request.form.label.statement = Statement
 learner.help-request.form.label.hyperlink = Hyperlink
 learner.help-request.form.label.status = Status
 
+learner.help-request.list.button.create = Create help request
+
 learner.help-request.form.button.create = Create
 learner.help-request.form.button.update = Update
 learner.help-request.form.button.delete = Delete
 learner.help-request.form.button.publish = Publish
 
-learner.help-request.form.error.too-close-init-date = Invalid date
-learner.help-request.form.error.one-month = Invalid date
+learner.help-request.form.error.too-close-init-date = Invalid date, the help request must start at least one week after it is instantiated
+learner.help-request.form.error.too-close-finish-date = Invalid date, the help request must be at least one day long
 learner.help-request.form.error.non-accepted-currency = Non accepted currency
 learner.help-request.form.error.negative-budget= The amount can't be negative
 

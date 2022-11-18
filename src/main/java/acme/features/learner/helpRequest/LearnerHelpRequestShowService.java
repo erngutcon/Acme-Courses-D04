@@ -75,7 +75,7 @@ public class LearnerHelpRequestShowService implements AbstractShowService<Learne
 		
 		final int teacherId = entity.getTeacher().getUserAccount().getId();
 		
-		request.unbind(entity, model, "ticker", "statement", "creationMoment", "budget", "initDate", "finishDate", "status", "hyperlink");
+		request.unbind(entity, model, "ticker", "statement", "creationMoment", "budget", "initDate", "finishDate", "status", "hyperlink", "publish");
 		
 		final Money totalPrice = this.convertToLocalCurrency(entity.getBudget());
 		model.setAttribute("budget", totalPrice);

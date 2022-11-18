@@ -20,3 +20,5 @@
 	<acme:list-column code="learner.help-request.list.label.budget" path="budget" width="30%"/>
 	<acme:list-column code="learner.help-request.list.label.status" path="status" width="30%"/>
 </acme:list>
+
+<acme:button code="learner.help-request.list.button.create" action="/learner/help-request/create"/>

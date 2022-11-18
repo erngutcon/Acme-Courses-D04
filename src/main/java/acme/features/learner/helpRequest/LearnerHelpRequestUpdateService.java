@@ -55,7 +55,7 @@ public class LearnerHelpRequestUpdateService implements AbstractUpdateService<Le
 		assert entity != null;
 		assert model != null;
 		
-		request.unbind(entity, model, "ticker", "statement", "creationMoment", "budget", "initDate", "finishDate", "status", "hyperlink");
+		request.unbind(entity, model, "ticker", "statement", "creationMoment", "budget", "initDate", "finishDate", "status", "hyperlink", "publish");
 	}
 
 	@Override

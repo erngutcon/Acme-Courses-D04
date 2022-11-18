@@ -28,7 +28,7 @@ import acme.roles.Learner;
 @Repository
 public interface LearnerHelpRequestRepository extends AbstractRepository {
 	
-	@Query("select learner from Learner learner where learner.id =:id")
+	@Query("select learner from Learner learner where learner.userAccount.id =:id")
 	Learner findLearnerById(@Param("id") int id);
 	
 	@Query("select learner from Learner learner")
