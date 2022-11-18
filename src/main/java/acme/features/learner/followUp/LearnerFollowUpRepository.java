@@ -21,6 +21,9 @@ public interface LearnerFollowUpRepository extends AbstractRepository {
 	
 	@Query("select followUp from FollowUp followUp")
 	List<FollowUp> findAllFollowUps();
+	
+	@Query("select followUp from FollowUp followUp where followUp.helpRequest.id = :id")
+	Collection<FollowUp> findFollowUpsByHelpRequest(@Param("id") int id);
 
 	@Query("select p from FollowUp p order by p.id desc")
 	List<FollowUp> findLastFollowUp();

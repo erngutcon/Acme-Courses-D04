@@ -25,5 +25,9 @@
 	<acme:input-textbox code="learner.help-request.form.label.budget" path="budget" readonly="true"/>
 	<acme:input-url code="learner.help-request.form.label.hyperlink" path="hyperlink" readonly="true"/>
 	
+	<jstl:if test="${status=='ACCEPTED'}">
+		<acme:button code="learner.help-request.follow-up.form.button.create" action="/learner/follow-up/create?helpRequestId=${id}" />
+	</jstl:if>
+	
 	<acme:button code="any.user-account.form.label.teacher" action="/any/user-account/show?id=${teacherId}"/>
 </acme:form>

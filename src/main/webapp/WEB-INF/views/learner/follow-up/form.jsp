@@ -19,8 +19,14 @@
 	
 		<acme:input-textbox readonly="true" code="learner.follow-up.form.label.sequenceNumber" path="sequenceNumber"/>
 		<acme:input-textbox readonly="true" code="learner.follow-up.form.label.instantiationMoment" path="instantiationMoment"/>
-		<acme:input-textbox readonly="true" code="learner.follow-up.form.label.message" path="message"/>
-		<acme:input-textbox readonly="true" code="learner.follow-up.form.label.hyperlink" path="hyperlink"/>
+		<acme:input-textbox code="learner.follow-up.form.label.message" path="message"/>
+		<acme:input-textbox code="learner.follow-up.form.label.hyperlink" path="hyperlink"/>
+		
+		<jstl:if test="${command == 'create' }">
+		<acme:hidden-data path="helpRequestId"/>
+		<acme:input-checkbox code="learner.follow-up.form.label.confirmation" path="confirmation"/>
+		<acme:submit code="learner.follow-up.form.button.create" action="/learner/follow-up/create"/>
+	</jstl:if>
 	
 	
 </acme:form>

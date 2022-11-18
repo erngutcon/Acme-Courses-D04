@@ -22,3 +22,4 @@ learner.help-request.form.label.hyperlink = Hyperlink
 learner.help-request.form.label.status = Estado
 
 any.user-account.form.label.teacher = Profesor
+learner.help-request.follow-up.form.button.create = Crear seguimiento
