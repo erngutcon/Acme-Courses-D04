@@ -22,8 +22,24 @@
 	<acme:input-textbox code="teacher.help-request.form.label.creationMoment" path="creationMoment" readonly="true"/>
 	<acme:input-textbox code="teacher.help-request.form.label.initDate" path="initDate" readonly="true"/>
 	<acme:input-textbox code="teacher.help-request.form.label.finishDate" path="finishDate" readonly="true"/>
-	<acme:input-textbox code="teacher.help-request.form.label.status" path="status" readonly="true"/>
 	<acme:input-textbox code="teacher.help-request.form.label.budget" path="budget" readonly="true"/>
 	<acme:input-url code="teacher.help-request.form.label.hyperlink" path="hyperlink" readonly="true"/>
+	<jstl:if test="${status!='PROPOSED'}">
+	<acme:input-textbox code="teacher.help-request.form.label.status" path="status" readonly="true"/>
+	</jstl:if>
+	<jstl:if test="${status=='PROPOSED'}">
+		<acme:input-select code="teacher.help-request.form.label.status" path="status">
+			<acme:input-option code="PROPOSED" value="PROPOSED" selected="true"/>
+			<acme:input-option code="ACCEPTED" value="ACCEPTED"/>
+			<acme:input-option code="DENIED" value="DENIED"/>
+		</acme:input-select>
+	</jstl:if>
+	<jstl:if test="${command == 'show' && status == 'PROPOSED'}">
+		<acme:submit code="teacher.help-request.form.button.update" action="/teacher/help-request/update"/>
+	</jstl:if>
 	<acme:button code="teacher.help-request.form.label.show-learner" action="/any/user-account/show?id=${learnerId}"/>
+	
+	<jstl:if test="${status=='ACCEPTED'}">
+		<acme:button code="teacher.help-request.follow-up.form.button.create" action="/teacher/follow-up/create?helpRequestId=${id}" />
+	</jstl:if>
 </acme:form>

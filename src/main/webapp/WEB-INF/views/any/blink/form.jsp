@@ -20,6 +20,12 @@
 	<acme:input-textbox code="any.blink.form.label.author-alias" path="authorAlias"/>
 	<acme:input-textarea code="any.blink.form.label.message" path="message"/>
 	<acme:input-textbox code="any.blink.form.label.email" path="email"/>
-	<acme:input-moment code="any.blink.form.label.instantiation-moment" path="instantiationMoment"/>
+	<jstl:if test="${showmoment}">
+		<acme:input-moment code="any.blink.form.label.instantiation-moment" path="instantiationMoment"/>
+	</jstl:if>
+	<jstl:if test="${!readonly}">
+		<acme:input-checkbox code="any.blink.form.label.confirmation" path="confirmation"/>
+		<acme:submit code="any.blink.form.button.create" action="/any/blink/create"/>
+	</jstl:if>
 	
 </acme:form>

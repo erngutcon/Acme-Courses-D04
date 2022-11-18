@@ -13,11 +13,14 @@ teacher.help-request.list.label.budget = Presupuesto
 teacher.help-request.list.label.status = Estado
 
 teacher.help-request.form.label.ticker = Ticker
-teacher.help-request.form.label.creationMoment = Fecha de creación
+teacher.help-request.form.label.creationMoment = Fecha de creacion
 teacher.help-request.form.label.initDate = Fecha de inicio
-teacher.help-request.form.label.finishDate = Fecha de finalización
+teacher.help-request.form.label.finishDate = Fecha de finalizacion
 teacher.help-request.form.label.budget = Presupuesto
-teacher.help-request.form.label.statement = Declaración
+teacher.help-request.form.label.statement = Declaracion
 teacher.help-request.form.label.hyperlink = Hyperlink
 teacher.help-request.form.label.status = Estado
 teacher.help-request.form.label.show-learner = Aprendiz 
+
+teacher.help-request.follow-up.form.button.create = Crear seguimiento
+teacher.help-request.form.button.update = Actualizar
