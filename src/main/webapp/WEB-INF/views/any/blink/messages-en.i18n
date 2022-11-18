@@ -16,6 +16,7 @@ any.blink.form.label.email = Email:
 any.blink.form.button.create = Create blink
 
 any.blink.form.label.confirmation = Blinks cannot be updated or deleted, confirm that the blink is correct
+
 any.blink.list.label.instantiation-moment = Instantiation moment
 any.blink.list.label.author-alias = Author alias
 any.blink.list.label.caption = Caption

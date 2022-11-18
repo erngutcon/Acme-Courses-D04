@@ -20,5 +20,6 @@ any.blink.form.label.confirmation = Las noticias no se pueden actualizar ni borr
 any.blink.list.label.instantiation-moment = Momento de creacion
 any.blink.list.label.author-alias = Alias del autor
 any.blink.list.label.caption = Titulo
+
 any.blink.list.button.create = Crear noticia
 
