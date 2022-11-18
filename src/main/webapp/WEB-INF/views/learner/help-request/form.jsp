@@ -18,13 +18,15 @@
 <acme:form>
 	<acme:input-textbox code="learner.help-request.form.label.ticker" path="ticker" readonly="true"/>
 	<jstl:if test="${command != 'create'}">
-		<acme:input-textbox code="learner.help-request.form.label.creationMoment" path="creationMoment" readonly="true"/>
+		<acme:input-textbox code="learner.help-request.form.label.creation-moment" path="creationMoment" readonly="true"/>
 		<acme:input-textbox code="learner.help-request.form.label.initDate" path="initDate" readonly="true"/>
 		<acme:input-textbox code="learner.help-request.form.label.finishDate" path="finishDate" readonly="true"/>
 	</jstl:if>
 	<jstl:if test="${command == 'create'}">
 		<acme:input-textbox code="learner.help-request.form.label.initDate" path="initDate"/>
 		<acme:input-textbox code="learner.help-request.form.label.finishDate" path="finishDate"/>
+		<acme:input-textbox code="learner.help-request.form.label.statement" path="statement"/>
+	<acme:input-url code="learner.help-request.form.label.hyperlink" path="hyperlink"/>
 	</jstl:if>
 	<jstl:if test="${acme:anyOf(command,'create, show, update')}">
 		<acme:input-textbox code="learner.help-request.form.label.budget" path="budget"/>
@@ -44,11 +46,6 @@
 	</jstl:if>
 	<acme:input-textbox code="learner.help-request.form.label.statement" path="statement" readonly="true"/>
 	<acme:input-url code="learner.help-request.form.label.hyperlink" path="hyperlink" readonly="true"/>
-	
-	
-	<jstl:if test="${acme:anyOf(command,'create, show, update')}">
-		<acme:input-textbox code="learner.help-request.form.label.budget" path="budget"/>
-	</jstl:if>
 	<jstl:if test="${acme:anyOf(command,'delete, publish')}">
 		<acme:input-textbox code="learner.help-request.form.label.budget" path="budget" readonly="true"/>
 	</jstl:if>
@@ -85,7 +82,5 @@
 		<acme:submit code="learner.help-request.form.button.create" action="/learner/help-request/create"/>
 	</jstl:if>
 
-	<acme:button code="any.user-account.form.label.teacher" action="/any/user-account/show?id=${teacherId}"/>
-	
 	
 </acme:form>

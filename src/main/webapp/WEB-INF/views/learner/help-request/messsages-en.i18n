@@ -13,7 +13,7 @@ learner.help-request.list.label.budget = Budget
 learner.help-request.list.label.status = Status
 
 learner.help-request.form.label.ticker = Ticker
-learner.help-request.form.label.creationMoment = Creation date
+learner.help-request.form.label.creation-moment = Creation date
 learner.help-request.form.label.initDate = Init date
 learner.help-request.form.label.finishDate = Finish date
 learner.help-request.form.label.budget = Budget
