@@ -21,3 +21,6 @@ teacher.help-request.form.label.statement = Statement
 teacher.help-request.form.label.hyperlink = Hyperlink
 teacher.help-request.form.label.status = Status
 teacher.help-request.form.label.show-learner = Learner 
+
+
+teacher.help-request.form.button.update = Update
