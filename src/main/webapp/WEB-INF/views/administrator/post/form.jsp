@@ -16,14 +16,14 @@
 <%@taglib prefix="acme" uri="urn:jsptagdir:/WEB-INF/tags"%>
 
 <acme:form>
-<acme:input-textbox code="administrator.post.form.label.instantiation-moment" path="instantiationMoment"/>
+<acme:input-textbox readonly="true" code="administrator.post.form.label.instantiation-moment" path="instantiationMoment"/>
 	<acme:input-textbox code="administrator.post.form.label.caption" path="caption"/>
 	<acme:input-textarea code="administrator.post.form.label.message" path="message"/>
 	<acme:input-select code="administrator.post.form.label.flag" path="flag">
 			<acme:input-option code="administrator.post.form.label.flag.true" value="true" />
 			<acme:input-option code="administrator.post.form.label.flag.false" value="false" />
 	</acme:input-select>
-	<acme:input-textbox code="administrator.post.form.label.hyperlink" path="hyperlink"/>
+	<acme:input-url code="administrator.post.form.label.hyperlink" path="hyperlink"/>
 	
 	
 	<acme:input-checkbox code="administrator.post.form.label.confirmation" path="confirmation"/>
