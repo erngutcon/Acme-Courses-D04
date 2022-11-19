@@ -20,7 +20,7 @@
 		<acme:input-textbox readonly="true" code="learner.follow-up.form.label.sequenceNumber" path="sequenceNumber"/>
 		<acme:input-textbox readonly="true" code="learner.follow-up.form.label.instantiationMoment" path="instantiationMoment"/>
 		<acme:input-textbox code="learner.follow-up.form.label.message" path="message"/>
-		<acme:input-textbox code="learner.follow-up.form.label.hyperlink" path="hyperlink"/>
+		<acme:input-url code="learner.follow-up.form.label.hyperlink" path="hyperlink"/>
 		
 		<jstl:if test="${command == 'create' }">
 		<acme:hidden-data path="helpRequestId"/>
