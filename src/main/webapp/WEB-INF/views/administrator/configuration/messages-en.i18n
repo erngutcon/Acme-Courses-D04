@@ -19,3 +19,6 @@ administrator.configuration.configuration.form.label.spamRecords.booster = Boost
 administrator.configuration.configuration.form.label.spamThreshold = Spam Threshold
 administrator.configuration.configuration.form.label.spamBoosterFactor = Spam Booster Factor
 
+administrator.configuration.configuration.form.button.update=Update
+administrator.configuration.configuration.form.button.submit=Update
+
