@@ -18,7 +18,7 @@ public class AnyTheoryTutorialListAllTest extends TestHarness {
 	public void positiveTest(final int recordIndex, final String ticker, final String title, final String abstractText, final String cost, final String hyperlink) {
 		super.signIn("administrator", "administrator");
 
-		super.clickOnMenu("Any", "Theory Tutorials");
+		super.clickOnMenu("Any", "Theory tutorials");
 		super.checkListingExists();
 		super.sortListing(0, "asc");
 		

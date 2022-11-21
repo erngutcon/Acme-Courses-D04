@@ -2,3 +2,6 @@ recordIndex,ticker,title,abstract-text,cost,hyperlink
 0,TUT-001,Theory tutorial 1,Theory tutorial 1,EUR 1.10,https://www.theory-tutorial.com
 1,TUT-002,Theory tutorial 2,Theory tutorial 2,EUR 1.15,https://www.theory-tutorial.com
 2,TUT-003,Theory tutorial 3,Theory tutorial 3,EUR 0.80,https://www.theory-tutorial.com
+3,TUT-004,Theory tutorial 4,Theory tutorial 4,EUR 1.95,https://www.theory-tutorial.com
+4,TUT-005,Theory tutorial 5,Theory tutorial 5,EUR 1.30,https://www.theory-tutorial.com
+5,TUT-006,Theory tutorial 6,Theory tutorial 6,EUR 1.00,https://www.theory-tutorial.com
