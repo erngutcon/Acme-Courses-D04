@@ -12,6 +12,10 @@ public class AnyBlinkListAllTest extends TestHarness {
 
 	// Test cases -------------------------------------------------------------
 
+	//	WARNING!!: The listed blinks are instantiated on 20 and 21 of November, and they are shown until
+	//	20 and 21 of December, if they are ran after that, this test will fail because, according to the
+	// requirements, "List the blinks that are not older than one month"
+	
 	@ParameterizedTest
 	@CsvFileSource(resources = "/any/blink/list-all.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
