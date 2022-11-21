@@ -1,0 +1,6 @@
+recordIndex,caption,author-alias,instantiation-moment,message,email,confirmation
+0,Blink1,Writer1,2022/11/21 10:00,Text,notwellformedemail,True
+1,,Writer15,2022/11/21 14:00,Text,chijujrp3@gmail.com,True
+2,Blink3,,2022/11/21 12:12,Text,chirtyddp2@gmail.com,True
+3,Blink4,Writer3,2022/11/20 01:00,,blink3@gmail.com,True
+4,Blink5,Writer4,2022/11/21 02:20,Text,blink4@gmail.com,False
