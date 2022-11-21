@@ -25,14 +25,13 @@ public class AnyBlinkCreateTest extends TestHarness {
 	// Test cases -------------------------------------------------------------
 
 	@ParameterizedTest
-	@CsvFileSource(resources = "/any/blink/list-all.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources = "/any/blink/create-positive.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
 	public void positiveTest(final int recordIndex, final String caption, final String authorAlias, final String instantiationMoment, final String message, final String email) {
 		super.signIn("administrator", "administrator");
 
 		super.clickOnMenu("Any", "Blinks");
 		super.checkListingExists();
-		super.sortListing(0, "asc");
 
 		super.clickOnButton("Create blink");
 		super.fillInputBoxIn("caption", caption);
@@ -42,10 +41,7 @@ public class AnyBlinkCreateTest extends TestHarness {
 		super.fillInputBoxIn("confirmation", "true");
 		super.clickOnSubmit("Create blink");
 		
-		super.checkListingExists();
-		super.sortListing(0, "asc");
 		super.checkColumnHasValue(recordIndex, 0, caption);
-		super.checkColumnHasValue(recordIndex, 1, instantiationMoment);
 		super.checkColumnHasValue(recordIndex, 2, authorAlias);
 
 		super.clickOnListingRecord(recordIndex);
@@ -53,15 +49,14 @@ public class AnyBlinkCreateTest extends TestHarness {
 		super.checkInputBoxHasValue("authorAlias", authorAlias);
 		super.checkInputBoxHasValue("message", message);
 		super.checkInputBoxHasValue("email", email);
-		super.checkInputBoxHasValue("instantiationMoment", instantiationMoment);
 
 		super.signOut();
 	}
 
-//	@ParameterizedTest
-	@CsvFileSource(resources = "/any/blink/list-all.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@ParameterizedTest
+	@CsvFileSource(resources = "/any/blink/create-negative.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)
-	public void negativeTest(final int recordIndex, final String caption, final String authorAlias, final String instantiationMoment, final String message, final String email) {
+	public void negativeTest(final int recordIndex, final String caption, final String authorAlias, final String instantiationMoment, final String message, final String email, final Boolean confirmation) {
 		super.signIn("administrator", "administrator");
 
 		super.clickOnMenu("Any", "Blinks");
@@ -73,7 +68,7 @@ public class AnyBlinkCreateTest extends TestHarness {
 		super.fillInputBoxIn("authorAlias", authorAlias);
 		super.fillInputBoxIn("message", message);
 		super.fillInputBoxIn("email", email);
-		//super.fillInputBoxIn("confirmation", "true");
+		super.fillInputBoxIn("confirmation", String.valueOf(confirmation));
 		super.clickOnSubmit("Create blink");
 
 		super.checkErrorsExist();
