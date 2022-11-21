@@ -126,7 +126,7 @@ public class TeacherFollowUpCreateService implements AbstractCreateService<Teach
 
 		public String numbersSecuency(final HelpRequest helpRequest) {
 
-			String secuency = new String();
+			String secuency = "";
 			int total;
 			final ArrayList<FollowUp> followUps = new ArrayList<>(
 				this.repository.findFollowUpsByHelpRequest(helpRequest.getId()));
@@ -151,7 +151,7 @@ public class TeacherFollowUpCreateService implements AbstractCreateService<Teach
 		public String createTicker(final HelpRequest helpRequest) {
 
 			// The ticker must be as follow:XXXX
-			String ticker = new String();
+			String ticker = "";
 			final String TICKER_PREFIX = helpRequest.getTicker();
 
 			// Set ticker format

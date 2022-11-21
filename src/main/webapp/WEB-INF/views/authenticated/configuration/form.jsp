@@ -5,6 +5,7 @@
 
 
 <table class="table table-sm">
+<caption>Authenticated Configuration</caption>
 	<tr>
 		<th scope="row"><acme:message
 				code="authenticated.configuration.show.label.currency" />

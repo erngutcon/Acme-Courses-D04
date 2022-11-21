@@ -25,12 +25,13 @@
 		code="administrator.configuration.configuration.form.label.spamRecords" />
 		</legend>
 	<table class="table table-sm">
+	<caption>Administrator Configuration</caption>
 		<tr>
-			<th><acme:message
+			<th scope="row"><acme:message
 					code="administrator.configuration.configuration.form.label.spamRecords.term" /></th>
-			<th><acme:message
+			<th scope="row"><acme:message
 					code="administrator.configuration.configuration.form.label.spamRecords.weight" /></th>
-			<th><acme:message
+			<th scope="row"><acme:message
 					code="administrator.configuration.configuration.form.label.spamRecords.booster" /></th>
 		</tr>
 		<jstl:forEach items="${spamRecords}" var="record">

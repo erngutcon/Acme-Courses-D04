@@ -16,6 +16,7 @@
 <%@taglib prefix="acme" uri="urn:jsptagdir:/WEB-INF/tags"%>
 
 <table class="table table-sm">
+<caption>Learner Help Requests</caption>
 	<tr>
 		<th scope="row"><acme:message
 				code="learner.dashboard.form.label.totalNumberOfProposedHelpRequests" />

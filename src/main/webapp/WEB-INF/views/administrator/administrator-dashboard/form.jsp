@@ -18,6 +18,7 @@
 
 
 <table class="table table-sm">
+	<caption>Administrator Dashboard</caption>
 	<tr>
 		<th scope="row"><acme:message
 				code="administrator.dashboard.form.label.total-number-of-theory-tutorials" />
