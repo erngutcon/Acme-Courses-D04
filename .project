@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Acme-Courses-D02</name>
+	<name>Acme-Courses-D04</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -38,7 +38,7 @@
 		<link>
 			<name>acme-framework</name>
 			<type>2</type>
-			<location>C:/Users/ernes/OneDrive/Escritorio/DP2/Workspace-22.0/Frameworks/Acme-Framework-22.8/target/classes</location>
+			<locationURI>WORKSPACE_LOC/Frameworks/Acme-Framework-22.8/target/classes</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
